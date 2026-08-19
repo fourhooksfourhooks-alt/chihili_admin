@@ -1012,7 +1012,7 @@ const AddProductPage = () => {
           </Button>
           <div className="space-x-2">
             <Button type="button" variant="outline">Save Draft</Button>
-            <Button type="submit" disabled={isSubmitting || !vendor || hasValidationErrors()}>
+            <Button type="submit" disabled={isSubmitting  || hasValidationErrors()}>
               {isSubmitting ? (
                 <>
                   <div className="animate-spin h-4 w-4 mr-2 border-2 border-current border-t-transparent rounded-full" />
