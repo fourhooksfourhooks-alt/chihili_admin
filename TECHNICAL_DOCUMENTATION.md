@@ -612,7 +612,7 @@ const ProductManager = () => {
 
 1. **Base URL:**
    ```typescript
-   baseURL: process.env.NEXT_PUBLIC_API_BASE_URL || "https://chihili-backend.onrender.com/api/v1"
+   baseURL: process.env.NEXT_PUBLIC_API_BASE_URL || "https://chihili-backend.onrender.com/api"
    ```
 
 2. **Credentials:**
@@ -2027,7 +2027,7 @@ xl: 1280px  /* Large desktop */
 
 ```bash
 # API Configuration
-NEXT_PUBLIC_API_BASE_URL=https://chihili-backend.onrender.com/api/v1
+NEXT_PUBLIC_API_BASE_URL=https://chihili-backend.onrender.com/api
 
 # Firebase Configuration
 NEXT_PUBLIC_FIREBASE_API_KEY=AIzaSyDvqX5d_Mt813_qjJVEVVhaWkizIl100Vw
