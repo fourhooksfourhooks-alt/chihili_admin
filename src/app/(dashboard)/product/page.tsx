@@ -243,7 +243,7 @@ const ProductPage = () => {
         <div className="mt-4 sm:ml-16 sm:mt-0 sm:flex-none">
           <Button
             onClick={() => router.push('/product/add')}
-            disabled={!vendor}
+            // disabled={!vendor}
             className="flex items-center justify-center bg-primary1 hover:bg-primary2 text-white"
           >
             <Plus className="h-4 w-4 mr-2" />
