@@ -8,6 +8,8 @@ interface BlockingModalProps {
   type?: 'danger' | 'warning' | 'info';
 }
 
+
+
 const BlockingModal: React.FC<BlockingModalProps> = ({
   isOpen,
   title,
