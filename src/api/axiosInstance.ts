@@ -2,7 +2,7 @@ import axios from "axios";
 import { useAuthStore } from "@/store/authStore";
 
 const instance = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_BASE_URL || "https://chihili-backend.onrender.com/api",
+  baseURL: process.env.NEXT_PUBLIC_API_BASE_URL || "https://chihili-backend.onrender.com/api/v1",
   withCredentials: true, // important so cookies (refresh token) are sent
 });
 
