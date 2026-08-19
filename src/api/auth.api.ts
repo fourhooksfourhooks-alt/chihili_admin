@@ -2,7 +2,7 @@ import axios from "axios";
 import instance from "./axiosInstance";
 
 const plainInstance = axios.create({
-	baseURL: process.env.NEXT_PUBLIC_API_BASE_URL || "https://api.chihili.com/api",
+	baseURL: process.env.NEXT_PUBLIC_API_BASE_URL || "https://chihili-backend.onrender.com/api",
 	withCredentials: true,
 });
 
@@ -10,6 +10,8 @@ interface LoginPayload {
   identifier: string;
   password: string;
 }
+
+
 
 interface SignupPayload {
   mobile?: string;
